@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name=" description" content = " Manizales Ciudad Universitaria " >
+    <title>Manizales</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="barra">
+      <img src = "multimedia/logo.png" alt = "Alcaldia de Manizales">
+        <ul>
+          <li><a  class="boton " href = "universidades.html">Universidades</a></li>
+          <li><a  class="boton " href = "sitios.html" >SITIOS</a></li>
+          <li><a  class="boton " href = "#registro" >REGRISTRARSE</a></li>
+        </ul>          
+    </div>
+     
+
+  <div class="contenido">
+    <table summary="cultura">
+      <br><br><br>
+      <h1 class="titulo">Eventos Alcaldia de Manizales</h1>
+      <br><br><br>
+      <thead>
+        <tr>
+          <th scope="col">Grupo</th>
+          <th scope="col">fecha</th>
+          <th scope="col">Descripción</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Feria de Manizales</th>
+            <td>Cada año en las primeras semanas de enero</td>
+            <td>Atrae miles de turistas y entre las principaes actividades están: El reinado internacional del café, la temporada taurina, conciertos, esposiciones...</td>
+        </tr>
+        <tr>
+          <th scope="row">Festival internacional del teatro</th>
+            <td>Se realiza en el mes de septiembre</td>
+            <td>Es uno de los festivales más importantes y el más antiguo de América.</td>
+        </tr>
+        <tr>
+          <th scope="row">Manizales Grita Rock</th>
+            <td>Se realiza anualmente</td>
+            <td>Conocido por reunir a bandas locales e internacionales, de generos musicales como rock, regge, metal, punk y fusiones de la Ciudad.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <video id="video1" src="video1.mp4" width=520  height=440 controls poster="multimedia/feria1.png">
+      Lo sentimos. Este vídeo no puede ser reproducido en tu navegador.<br>
+    </video>
+    <p id="feria-manizales">Destacada por ser un evento que muestra los paisajes<br>
+    las bellas mujeres y la gente cordial, además es el punto<br>
+    central para la realización del Reinado Internacional del<br>
+    Café y la Temporada Taurina</p>
+
+    <img id="evento2" src="multimedia/evento2.jpg" width=520  height=440>
+    <p id="teatro">Casi cinco décadas de fiesta cultural <br>
+    para los colombianos y visitantes, lo que lo convierte<br>
+    en el primer punto de encuentro para la dramaturgia en<br>
+    América.</p>
+
+    <img id="evento3" src="multimedia/img3.jpg" width=520 height=440>
+    <p id="rock">Como uno de los festivales musicales más<br>
+     reconocidos del país, nacional e internacionalmente<br>
+     que en 15 años de existencia ha puesto en tarima <br>
+     340 bandas y ha reunido a más de 220 mil espectadores<br> 
+     en una experiencia de música alternativa, respeto, inclusión<br>
+     y cultura de la diversidad</p>
+
+    <audio id="musica" controls preload autoplay style="margin-left: 600px;">
+      <source src="multimedia/audio1.mp3" type="audio/mp3">
+    </audio>
+
+    <!-- Fin multimedia -->
+
+    <a name="registro"/>
+      <form action="" method="post">
+        <caption>Registrate para mas información</caption>
+          <ul>
+            <li>
+              <label for="name">Nombre:</label>
+              <input type="text" id="name" name="user_name" />
+            </li>
+            <li>
+              <label for="mail">Correo electrónico:</label>
+              <input type="email" id="mail" name="user_email" />
+            </li>
+            <li>
+              <label for="msg">Mensaje:</label>
+              <textarea id="msg" name="user_message"></textarea>
+            </li>
+          </ul>
+      </form> 
+  </div>
+
+  <div class="footer">
+    <img id="footer1" src="multimedia/footer1.png">
+    <!--<div id="d1">-->
+  </div>
+  <script src="script.js"></script>
+  </body>
+</html>
